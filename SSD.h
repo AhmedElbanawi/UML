@@ -30,3 +30,9 @@ typedef struct{
         u8_t Symbol;
 }SSD_t;
 /******************************************************************************/
+void SSD_Init(SSD_t* const SSD);
+void SSD_On(SSD_t* const SSD);
+void SSD_Off(SSD_t* const SSD);
+void SSD_Set_Symbol(SSD_t* const SSD);
+void SSD_Init_Data(void);
+/******************************************************************************/
