@@ -1,2 +1,2 @@
 # UML
-![UML](https://user-images.githubusercontent.com/51443318/98996918-53da1a00-253c-11eb-84c9-763d156fccfe.PNG)
+![Capture](https://user-images.githubusercontent.com/51443318/98997267-e5e22280-253c-11eb-9e38-3591e567dca8.PNG)
