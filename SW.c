@@ -3,11 +3,11 @@
 #include "SW.h"
 #endif
 /******************************************************************************/
-void Init(SW_t* const SW){
+void SW_Init(SW_t* const SW){
      GPIO_SetPinDirection(SW->Port, SW->Pin, GPIO_INPUT);
 }
 /******************************************************************************/
-void Read(SW_t* const SW){
+void SW_Read(SW_t* const SW){
      switch(SW->Time){
             case SW_FALLING:
                  SW->State = SW_STATE_OFF;
