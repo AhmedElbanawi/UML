@@ -22,6 +22,6 @@ typedef struct{
         SW_STATE_t     State :  1;
 }SW_t;
 /******************************************************************************/
-void Init(SW_t* const SW);
-void Read(SW_t* const SW);
+void SW_Init(SW_t* const SW);
+void SW_Read(SW_t* const SW);
 /******************************************************************************/
